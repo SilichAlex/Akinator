@@ -1,0 +1,24 @@
+body{
+    background-image: url("../images/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Start{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 60px;
+    border-color: #000000;
+    border-radius: 8px;
+    background-color: white;
+
+}
+
+
+ #Start:hover {
+     background-color: #060606;
+     color: #ffffff;
+ }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/styleHome.css">
+</head>
+<body>
+
+<div>
+    <h1 id="akinator">Akinator</h1>
+</div>
+<button id="button-begin">Готові розпочати?</button>
+<div id="window">
+    <div id="answer">Ваша відповідь:</div>
+    <div id="questions">
+        <span id="question"></span>
+    </div>
+    <div id="button-box">
+        <button class="answer" id="yes">Так</button>
+        <button class="answer" id="no">Ні</button>
+        <a href="/page">
+            <input id="retry" class="answer" type="button" value="Retry?"/>
+        </a>
+    </div>
+    <div id="wayAnswer">
+        <p id="label1">Шлях:</p>
+        <p id="way">0</p>
+
+    </div>
+</div>
+<div>
+    <b>Список відфільтрованих елементів:<br></b>
+    <ul id="list">
+    </ul>
+</div>
+<script type="text/javascript" src="js/home.js"></script>
+<script type="text/javascript" src="js/request.js"></script>
+</body>
+</html>
